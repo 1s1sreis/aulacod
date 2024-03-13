@@ -1,0 +1,20 @@
+importar javax.swing.JOptionPane;
+
+Adição de classe pública
+{
+    público estático void principal (String[] args)
+    {
+        String primeiroNúmero =
+                JOptionPane.showInputDialog("insira o primeiro número inteiro");
+        String segundoNúmero =
+                JOptionPane.showInputDialog("insira o segundo número inteiro");
+        
+        int numero1 = Integer.parseInt(primeiroNumero);
+        int numero2 = Integer.parseInt(segundoNumero);
+        
+        int soma = numero1 + numero2;
+        
+        JOptionPane.showMessagemDialog(null," a soma é:" + soma, "soma de dois números inteiros", JOpationPane.PLAIN_MESSAGE);
+    }       
+            
+}
